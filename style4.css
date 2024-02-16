@@ -1,0 +1,221 @@
+/* body{
+    background-color: black !important;
+    color: white !important;
+    
+}
+h1{
+    font-size: 4rem;
+    text-align: center !important;
+}
+p{
+    margin-right: 100px;
+    margin-left: 100px;
+    color: gray !important;
+} */
+/* .container-fluid{
+    background-color: black !important;
+    padding: 30px !important;
+}
+.nav-link{
+    color: white !important;
+    font-size: 1.2rem !important;
+}
+.nav-link:hover{
+    color: rgb(94, 101, 105) !important;
+
+}
+.navbar-nav{
+    padding-left: 300px !important;
+}
+.navbar-brand{
+    color: white !important;
+    font-size: 2rem !important;
+    padding-left: 50px !important;
+}
+.navbar-brand:hover{
+    color: rgb(94, 101, 105) !important;
+
+}
+.btn{
+    border: 1px solid grey !important;
+}
+.navbar-toggler{
+    background-color:rgb(94, 101, 105) !important;
+    color: white !important;
+}
+.navbar-toggler-icon>ul>li{
+    color: white !important;
+}
+.container-fluid{
+    flex-wrap: wrap !important;
+} */
+@font-face {
+    font-family: My font;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+body{
+    
+    font-family: My font !important;
+    
+    
+}
+body{
+    background-color: white !important;
+    color: rgb(15, 180, 236) !important;
+    
+    
+    
+}
+td,th{
+    background-color:rgb(15, 180, 236) !important;
+    color:white !important;
+    
+}
+.container-fluid{
+    background-color:white !important;
+    /* margin-right: 100px !important;
+    margin-left: 100px !important; */
+    padding: 30px !important;
+}
+.nav-link{
+    color:rgb(15, 180, 236)  !important;
+    font-size: 1.2rem !important;
+}
+.nav-link:hover{
+    color: rgb(94, 101, 105) !important;
+
+}
+/* .navbar-nav{
+    padding-left: 300px !important;
+} */
+.navbar-brand{
+    color:!important;
+    font-size:2rem !important;
+    padding-left:50px !important;
+}
+.navbar-brand:hover{
+    color: rgb(94, 101, 105) !important;
+
+}
+.btn{
+    border: 1px solid grey !important;
+    background-color: rgb(15, 180, 236) !important;
+    color: white !important;
+}
+.navbar-toggler{
+    background-color:rgb(94, 101, 105) !important;
+    color: white !important;
+}
+.navbar-toggler-icon>ul>li{
+    color: white !important;
+}
+.container-fluid{
+    flex-wrap: wrap !important;
+}
+/* a:hover{
+    font-size: 22px !important;
+    transition: 0.5s !important;
+    transform: scale(0.8);
+} */
+a{
+    transition: 0.3s !important;
+
+}
+a:hover{
+    font-size: 20px !important;  
+    transform: scale(1.2);
+}
+
+
+.footer {
+    
+    /* background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+
+    /* background: rgb(227,238,240);
+    background: linear-gradient(0deg, rgba(227,238,240,1) 0%, rgba(108,215,255,1) 100%); */
+
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    background-color:  rgb(15, 180, 236);
+    color:white;
+    padding: 20px;
+    text-align: center;
+}
+.footer a {
+    color:white;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer ul li {
+    display: inline;
+    margin-right: 5px;
+}
+  .footer ul li:last-child {
+    margin-right: 0;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    line-height: 30px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+  .footer .social-icons a:hover {
+    background-color: #ccc;
+}
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+    .footer ul li {
+      display: block;
+      margin-bottom: 10px;
+    }
+    .footer .social-icons {
+      margin-top: 20px;
+    }
+}
+
+
+
+@media(max-width:1000px){
+    .btn{
+        width: 105px !important;
+        height: 46px !important;
+    }
+
+}
+@media(max-width:500px){
+    .navbar-nav{
+        color: white ;
+        
+    }
+
+}
+@media(max-width:576px){
+    .img-fluid{
+        width: 20%;
+    }
+}
+@media(max-width:768px){
+    .img-fluid{
+        width: 10%;
+    }
+}
+h1{
+    text-align: center;
+}
